@@ -1,0 +1,46 @@
+{
+    "prendas": [
+        {
+            "id" : 1,
+            "Title" : "Fresh Stripe Sweater",
+            "Description" : "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc inceptos lacinia lectus, nisi porttitor nec facilisi praesent himenaeos mauris id malesuada convallis. Pellentesque habitant leo sociis in condimentum aptent vitae, rhoncus justo mauris rutrum dignissim semper eros quam, ad est aliquet himenaeos convallis nec. Sem pharetra penatibus inceptos et neque torquent volutpat, ullamcorper taciti sodales ornare curae.",
+            "price": 85.000,
+            "img1" : "https://res.cloudinary.com/estudiante-geek/image/upload/v1653075428/Frame_14_kq0qcw.png",
+            "img2" : "https://res.cloudinary.com/estudiante-geek/image/upload/v1653075428/Frame_16_qt7haq.png",
+            "img3" : "https://res.cloudinary.com/estudiante-geek/image/upload/v1653075428/Frame_15_mgh1nz.png"
+
+        },
+        {
+            "id" : 2,
+            "Title" : "Fresh Black Tie-Dye Hoodie",
+            "Description" : "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc inceptos lacinia lectus, nisi porttitor nec facilisi praesent himenaeos mauris id malesuada convallis. Pellentesque habitant leo sociis in condimentum aptent vitae, rhoncus justo mauris rutrum dignissim semper eros quam, ad est aliquet himenaeos convallis nec. Sem pharetra penatibus inceptos et neque torquent volutpat, ullamcorper taciti sodales ornare curae.",
+            "price": 75.000,
+            "img2" : "https://res.cloudinary.com/estudiante-geek/image/upload/v1653075427/Frame_17_xkmpmn.png",
+            "img3": "https://res.cloudinary.com/estudiante-geek/image/upload/v1653075427/Frame_19_sk1hxk.png",
+            "img1": "https://res.cloudinary.com/estudiante-geek/image/upload/v1653075427/Frame_18_mkfcdm.png"
+
+        },
+        {
+            "id" : 3,
+            "Title" : "Pose For It Tee",
+            "Description" : "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc inceptos lacinia lectus, nisi porttitor nec facilisi praesent himenaeos mauris id malesuada convallis. Pellentesque habitant leo sociis in condimentum aptent vitae, rhoncus justo mauris rutrum dignissim semper eros quam, ad est aliquet himenaeos convallis nec. Sem pharetra penatibus inceptos et neque torquent volutpat, ullamcorper taciti sodales ornare curae.",
+            "price": 45.000,
+            "img2" : "https://res.cloudinary.com/estudiante-geek/image/upload/v1653075429/Frame_22_yxvqxh.png",
+            "img3": "https://res.cloudinary.com/estudiante-geek/image/upload/v1653075428/Frame_21_mcdqmv.png",
+            "img1": "https://res.cloudinary.com/estudiante-geek/image/upload/v1653075428/Frame_20_nzd2hz.png"
+            
+
+        },
+        {
+            "id" : 4,
+            "Title" : "Pose For It Tee",
+            "Description" : "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc inceptos lacinia lectus, nisi porttitor nec facilisi praesent himenaeos mauris id malesuada convallis. Pellentesque habitant leo sociis in condimentum aptent vitae, rhoncus justo mauris rutrum dignissim semper eros quam, ad est aliquet himenaeos convallis nec. Sem pharetra penatibus inceptos et neque torquent volutpat, ullamcorper taciti sodales ornare curae.",
+            "price": 45.000,
+            "img2" : "https://res.cloudinary.com/estudiante-geek/image/upload/v1653075664/2_hgwi1y.jpg",
+            "img3": "https://res.cloudinary.com/estudiante-geek/image/upload/v1653075664/1_cmlytc.jpg",
+            "img1": "https://res.cloudinary.com/estudiante-geek/image/upload/v1653075664/3_drp3gb.jpg"
+
+        }
+       
+    ]
+}
