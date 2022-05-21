@@ -146,3 +146,141 @@ body {
     font-size: 20px;
     
 }
+
+/* DELETE */
+
+#AddToCart:hover {
+  background: #fff;
+  border: 2px solid #000 !important;
+  color: #000;
+}
+
+#add-article:hover {
+  background: #fff;
+  border: 2px solid #0B5ED7 !important;
+  color: #0B5ED7;
+}
+
+.btn {
+  border: 2px solid transparent !important;
+  transition: .3s;
+}
+
+/* CART */
+.modalCar{
+  background-color: rgba(0, 0, 0, 0.495);
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  visibility:hidden;
+}
+
+.car-check{
+  height: 100vh;
+  background-color: rgb(255, 255, 255) !important;
+  width: 30%;
+  position: relative;
+  float: right;
+  padding: 2% 4% 5% 4%;
+}
+
+.car-check i{
+  font-size: 30px;
+  float: right;
+  cursor: pointer;
+}
+
+.carrito{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15%;
+}
+
+.imagen img{
+  width: 75px;
+}
+
+
+.carrito ul li{
+  list-style-type: none;
+}
+
+.typeOfShirt li:first-child{
+  font-size: 20px;
+  width: 20%;
+  line-height:25px;
+  font-weight: 700;
+}
+
+.typeOfShirt li:nth-child(2){
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 5%;
+}
+
+.counting{
+  text-align: center;
+}
+
+.counting li:first-child{
+  font-size: 16px;
+  border-bottom: 2px solid rgb(49, 49, 49);
+  line-height: 40px;
+  font-weight: 600;
+}
+
+.counting li:nth-child(2){
+  margin-top: 10%;
+  cursor: pointer;
+}
+
+.counting li:hover:nth-child(2){
+  color:orangered;
+  font-weight: 500;
+}
+
+.precio{
+  margin-top: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.precio p{
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.car-check h6{
+  margin-top: 15%;
+  font-weight: 400;
+  text-align: center;
+  font-size: 14px;
+}
+
+.car-check button{
+  width: 100%;
+  padding: 2%;
+  border-radius: 5px;
+  border: none;
+  margin-top: 2%;
+  background-color: #4276FB;
+  color: white;
+  font-weight: 700;
+}
+
+.car-check h5{
+  margin-top: 8%;
+  font-size: 14px;
+  text-align: center;
+}
+
+
+
+
+
+
+/* /CART */

@@ -11,6 +11,7 @@
   <link href="http://fonts.cdnfonts.com/css/sofia-pro" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
@@ -22,8 +23,7 @@
 </html>
 
 <body>
-
-  <header class="head">
+  <header class="head" id="head">
     <nav class="headnav">
       <a href="#"><img src="./images/logo.png" alt="logo"></a>
       <ul class="nav">
@@ -38,7 +38,7 @@
   </header>
 
   <div class="container-fluid pt-5 pb-5">
-    <div class="row">
+    <div class="row" id="product-info">
       <div class="col-2">
         <div class="d-flex flex-column align-items-end">
           <img
@@ -81,12 +81,14 @@
           <button class="size">L</button>
           <button class="size">XL</button><button class="size">XXL</button>
         </div>
-        <button class="btn btn-dark w-100 text-uppercase fw-bold mb-2">
-          add to cart
-        </button>
-        <button class="btn btn-primary w-100 text-uppercase fw-bold">
-          buy it now
-        </button>
+        
+  <button class="btn btn-dark w-100 text-uppercase fw-bold mb-2" id="AddToCart">
+    add to cart
+  </button>
+       
+    <button class="btn btn-primary w-100 text-uppercase fw-bold" id="add-article">
+      buy it now
+    </button>
         <p class="pt-3">
           Let them know you’re 90s royalty with this official The Fresh Prince
           crown pattern sweater. Throw vintage vibes that Uncle Phil would
@@ -97,29 +99,42 @@
         <a href="#" class="text-dark">Click for Sizing</a>
       </div>
     </div>
+<!-- cart -->
+<section class="modalCar" id="modalCar">
+  <div class="car-check">
+    <i class="bi bi-x" id="closeCart"></i>
+    <div class="carrito">
+      <div class="imagen"><img src="./images/avatar.png"></div>
+      <ul class="typeOfShirt">
+        <li>Crown Sweatshirt</li>
+        <li>$85.00</li>
+      </ul>
+      <ul class="counting">
+        <li>1</li>
+        <li>Remove</li>
+      </ul>
+    </div>
+    <div class="precio">
+      <p>Subtotal</p>
+      <p>$85000</p>
+    </div>
+    <h6>sjipping, taxes and disscount codes calculated at checkout</h6>
+    <button id="checkout">CHECK OUT</button>
+    <h5>Please Note: All items are pre-order and will ship in 6-10 weeks. Guaranteed holidat delivery</h5>
+  </div>
+</section>
+
+<!--  -->
+
     <div class="you-may-also p-5 mt-5">
       <h2 class="text-uppercase fw-bold text-center h1">you may also like</h2>
-      <div class="row p-5">
-        <div class="col-4 text-center">
-          <img src="./images/imgs.png" alt="product" class="img-fluid" />
-          <h4 class="fw-bold mt-2">Fresh Stripe Sweater</h4>
-          <h5 class="fw-bold">$85.00</h5>
-        </div>
-        <div class="col-4 text-center">
-          <img src="./images/imgs.png" alt="product" class="img-fluid" />
-          <h4 class="fw-bold mt-2">Fresh Stripe Sweater</h4>
-          <h5 class="fw-bold">$85.00</h5>
-        </div>
-        <div class="col-4 text-center">
-          <img src="./images/imgs.png" alt="product" class="img-fluid" />
-          <h4 class="fw-bold mt-2">Fresh Stripe Sweater</h4>
-          <h5 class="fw-bold">$85.00</h5>
-        </div>
+      <div class="row p-5"  id="pintar">
+        
       </div>
     </div>
   </div>
    
-  <form class="row g-3 w-50 m-auto">
+  <form id="formulario" class="row g-3 w-50 m-auto">
     <div class="col-md-4">
       <label for="validationServer01" class="form-label">Image 1</label>
       <input type="text" class="form-control " id="validationServer01" value="" required>
@@ -136,7 +151,7 @@
     </div>
     <div class="col-md-4">
         <label for="validationServer02" class="form-label">Image 3</label>
-        <input type="text" class="form-control " id="validationServer02" value="" required>
+        <input type="text" class="form-control " id="validationServer03"  value="" required>
         <div class="valid-feedback">
       
         </div>
@@ -144,7 +159,7 @@
     
     <div class="col-md-6 w-50">
       <label for="validationServer03" class="form-label">Title</label>
-      <input type="text" class="form-control " id="validationServer03" aria-describedby="validationServer03Feedback" required>
+      <input type="text" class="form-control " id="validationServer04" aria-describedby="validationServer03Feedback" required>
       <div id="validationServer03Feedback" class="invalid-feedback">
        
       </div>

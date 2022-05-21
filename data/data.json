@@ -1,46 +1,106 @@
 {
-    "prendas": [
-        {
-            "id" : 1,
-            "Title" : "Fresh Stripe Sweater",
-            "Description" : "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc inceptos lacinia lectus, nisi porttitor nec facilisi praesent himenaeos mauris id malesuada convallis. Pellentesque habitant leo sociis in condimentum aptent vitae, rhoncus justo mauris rutrum dignissim semper eros quam, ad est aliquet himenaeos convallis nec. Sem pharetra penatibus inceptos et neque torquent volutpat, ullamcorper taciti sodales ornare curae.",
-            "price": 85.000,
-            "img1" : "https://res.cloudinary.com/estudiante-geek/image/upload/v1653075428/Frame_14_kq0qcw.png",
-            "img2" : "https://res.cloudinary.com/estudiante-geek/image/upload/v1653075428/Frame_16_qt7haq.png",
-            "img3" : "https://res.cloudinary.com/estudiante-geek/image/upload/v1653075428/Frame_15_mgh1nz.png"
-
-        },
-        {
-            "id" : 2,
-            "Title" : "Fresh Black Tie-Dye Hoodie",
-            "Description" : "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc inceptos lacinia lectus, nisi porttitor nec facilisi praesent himenaeos mauris id malesuada convallis. Pellentesque habitant leo sociis in condimentum aptent vitae, rhoncus justo mauris rutrum dignissim semper eros quam, ad est aliquet himenaeos convallis nec. Sem pharetra penatibus inceptos et neque torquent volutpat, ullamcorper taciti sodales ornare curae.",
-            "price": 75.000,
-            "img2" : "https://res.cloudinary.com/estudiante-geek/image/upload/v1653075427/Frame_17_xkmpmn.png",
-            "img3": "https://res.cloudinary.com/estudiante-geek/image/upload/v1653075427/Frame_19_sk1hxk.png",
-            "img1": "https://res.cloudinary.com/estudiante-geek/image/upload/v1653075427/Frame_18_mkfcdm.png"
-
-        },
-        {
-            "id" : 3,
-            "Title" : "Pose For It Tee",
-            "Description" : "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc inceptos lacinia lectus, nisi porttitor nec facilisi praesent himenaeos mauris id malesuada convallis. Pellentesque habitant leo sociis in condimentum aptent vitae, rhoncus justo mauris rutrum dignissim semper eros quam, ad est aliquet himenaeos convallis nec. Sem pharetra penatibus inceptos et neque torquent volutpat, ullamcorper taciti sodales ornare curae.",
-            "price": 45.000,
-            "img2" : "https://res.cloudinary.com/estudiante-geek/image/upload/v1653075429/Frame_22_yxvqxh.png",
-            "img3": "https://res.cloudinary.com/estudiante-geek/image/upload/v1653075428/Frame_21_mcdqmv.png",
-            "img1": "https://res.cloudinary.com/estudiante-geek/image/upload/v1653075428/Frame_20_nzd2hz.png"
-            
-
-        },
-        {
-            "id" : 4,
-            "Title" : "Pose For It Tee",
-            "Description" : "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc inceptos lacinia lectus, nisi porttitor nec facilisi praesent himenaeos mauris id malesuada convallis. Pellentesque habitant leo sociis in condimentum aptent vitae, rhoncus justo mauris rutrum dignissim semper eros quam, ad est aliquet himenaeos convallis nec. Sem pharetra penatibus inceptos et neque torquent volutpat, ullamcorper taciti sodales ornare curae.",
-            "price": 45.000,
-            "img2" : "https://res.cloudinary.com/estudiante-geek/image/upload/v1653075664/2_hgwi1y.jpg",
-            "img3": "https://res.cloudinary.com/estudiante-geek/image/upload/v1653075664/1_cmlytc.jpg",
-            "img1": "https://res.cloudinary.com/estudiante-geek/image/upload/v1653075664/3_drp3gb.jpg"
-
-        }
-       
-    ]
+  "prendas": [
+    {
+      "id": 1,
+      "Title": "Fresh Stripe Sweater",
+      "Description": "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc inceptos lacinia lectus, nisi porttitor nec facilisi praesent himenaeos mauris id malesuada convallis. Pellentesque habitant leo sociis in condimentum aptent vitae, rhoncus justo mauris rutrum dignissim semper eros quam, ad est aliquet himenaeos convallis nec. Sem pharetra penatibus inceptos et neque torquent volutpat, ullamcorper taciti sodales ornare curae.",
+      "price": 85,
+      "img1": "https://res.cloudinary.com/estudiante-geek/image/upload/v1653075428/Frame_14_kq0qcw.png",
+      "img2": "https://res.cloudinary.com/estudiante-geek/image/upload/v1653075428/Frame_16_qt7haq.png",
+      "img3": "https://res.cloudinary.com/estudiante-geek/image/upload/v1653075428/Frame_15_mgh1nz.png"
+    },
+    {
+      "id": 2,
+      "Title": "Fresh Black Tie-Dye Hoodie",
+      "Description": "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc inceptos lacinia lectus, nisi porttitor nec facilisi praesent himenaeos mauris id malesuada convallis. Pellentesque habitant leo sociis in condimentum aptent vitae, rhoncus justo mauris rutrum dignissim semper eros quam, ad est aliquet himenaeos convallis nec. Sem pharetra penatibus inceptos et neque torquent volutpat, ullamcorper taciti sodales ornare curae.",
+      "price": 75,
+      "img2": "https://res.cloudinary.com/estudiante-geek/image/upload/v1653075427/Frame_17_xkmpmn.png",
+      "img3": "https://res.cloudinary.com/estudiante-geek/image/upload/v1653075427/Frame_19_sk1hxk.png",
+      "img1": "https://res.cloudinary.com/estudiante-geek/image/upload/v1653075427/Frame_18_mkfcdm.png"
+    },
+    {
+      "id": 3,
+      "Title": "Pose For It Tee",
+      "Description": "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc inceptos lacinia lectus, nisi porttitor nec facilisi praesent himenaeos mauris id malesuada convallis. Pellentesque habitant leo sociis in condimentum aptent vitae, rhoncus justo mauris rutrum dignissim semper eros quam, ad est aliquet himenaeos convallis nec. Sem pharetra penatibus inceptos et neque torquent volutpat, ullamcorper taciti sodales ornare curae.",
+      "price": 45,
+      "img2": "https://res.cloudinary.com/estudiante-geek/image/upload/v1653075429/Frame_22_yxvqxh.png",
+      "img3": "https://res.cloudinary.com/estudiante-geek/image/upload/v1653075428/Frame_21_mcdqmv.png",
+      "img1": "https://res.cloudinary.com/estudiante-geek/image/upload/v1653075428/Frame_20_nzd2hz.png"
+    },
+    {
+      "id": 4,
+      "Title": "Pose For It Tee",
+      "Description": "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc inceptos lacinia lectus, nisi porttitor nec facilisi praesent himenaeos mauris id malesuada convallis. Pellentesque habitant leo sociis in condimentum aptent vitae, rhoncus justo mauris rutrum dignissim semper eros quam, ad est aliquet himenaeos convallis nec. Sem pharetra penatibus inceptos et neque torquent volutpat, ullamcorper taciti sodales ornare curae.",
+      "price": 45,
+      "img2": "https://res.cloudinary.com/estudiante-geek/image/upload/v1653075664/2_hgwi1y.jpg",
+      "img3": "https://res.cloudinary.com/estudiante-geek/image/upload/v1653075664/1_cmlytc.jpg",
+      "img1": "https://res.cloudinary.com/estudiante-geek/image/upload/v1653075664/3_drp3gb.jpg"
+    },
+    {
+      "id": "e33411c5-5168-4dd9-a33a-7fed06023a1b",
+      "Description": "Trabajamos con programas de seguimiento para garantizar el cumplimiento de los estándares de seguridad, salud y calidad de nuestros productos.   El estándar Green to Wear 2.0 tiene como objetivo minimizar el impacto ambiental de la",
+      "Title": "Jean",
+      "price": 80,
+      "img2": "https://static.zara.net/photos///2022/V/0/1/p/6164/166/712/2/w/750/6164166712_6_2_1.jpg?ts=1652960752821",
+      "img3": "https://static.zara.net/photos///2022/V/0/1/p/6164/166/712/2/w/750/6164166712_6_1_1.jpg?ts=1652960766024",
+      "img1": "https://static.zara.net/photos///2022/V/0/1/p/6164/166/712/2/w/750/6164166712_1_1_1.jpg?ts=1653037902156",
+      "img4": "https://res.cloudinary.com/duddljshu/image/upload/v1653085297/Rectangle_4_1_fmqqie.png"
+    }
+  ],
+  "users": [
+    {
+      "id": "715abb46-2847-4d37-b38d-c901c033a06e",
+      "name": "WIFIetb",
+      "email": "asdasd@hotmail.com",
+      "password": "asdfasdf"
+    },
+    {
+      "id": "75c43996-e419-4f56-b7d2-413a16bf7646",
+      "name": "Isaac",
+      "email": "isaac100081@hotmail.com",
+      "password": "Killme"
+    },
+    {
+      "id": "0af01d78-fe83-4402-8972-9e0705ddf864",
+      "name": "isaac",
+      "email": "isaac100081@hotmail.com",
+      "password": "asdsadsa"
+    },
+    {
+      "id": "c119749e-4ae1-4057-acfd-8bb4eee778be",
+      "name": "melisa",
+      "email": "melisa@gmail.com",
+      "password": "aflñsdkfjañsldkf"
+    },
+    {
+      "id": "779c842b-3250-4b88-859a-78f31981b76a",
+      "name": "Jenny melisa ",
+      "email": "carlosandresbeltran53@gmail.com",
+      "password": "asdasdas"
+    },
+    {
+      "id": "1ad36e46-7c2e-43bb-a449-22b8f316bda7",
+      "name": "gomez",
+      "email": "manolo@gmail.com",
+      "password": "asdsadasd"
+    },
+    {
+      "id": "807d8af8-d3c8-4bda-9834-05e067fbad76",
+      "name": "admin",
+      "email": "isa@gmail.com",
+      "password": "asdasdasd"
+    },
+    {
+      "id": "2ac9136c-4b43-4d56-85f4-e027e161314c",
+      "name": "asdasd",
+      "email": "asdasd@hotmail.com",
+      "password": "sdfsdfdsf"
+    },
+    {
+      "id": "1f40820a-6fa2-45b5-b245-466c7f41db2f",
+      "name": "WIFIetb",
+      "email": "asdasd@hotmail.com",
+      "password": "asdasd"
+    }
+  ]
 }

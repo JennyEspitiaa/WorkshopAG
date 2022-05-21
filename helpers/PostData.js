@@ -10,9 +10,9 @@ const PostData = async (url, object = {}) => {
         })
 
         let data = await res.json();
-        alert("Información creada")
+   /*      alert("Información creada") */
     } catch (error) {
-        alert("Hubo un error", error)
+        /* alert("Hubo un error", error) */
     }
 
 
