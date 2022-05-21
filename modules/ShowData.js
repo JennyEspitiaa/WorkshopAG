@@ -48,7 +48,7 @@ export const ShowData2 = ((data, contenedor)=>{
     <div class="col-4 text-center">
       <img src="${img1}" alt="product" class="img-fluid" />
       <h4 class="fw-bold mt-2">${Title}</h4>
-      <h5 class="fw-bold">${price}</h5>
+      <h5 class="fw-bold">$${price}</h5>
     </div>
  
         `;
