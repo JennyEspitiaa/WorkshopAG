@@ -36,7 +36,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 newProduct.addEventListener('submit', async (e) => {
     e.preventDefault(e);
-    alert("hola")
     let imageUno = document.getElementById('validationServer01').value;
     let imageDos = document.getElementById('validationServer02').value;
     let imageTres = document.getElementById('validationServer03').value;
